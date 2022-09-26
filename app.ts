@@ -47,7 +47,7 @@ const temporaryFruitArray = [
   },
 ];
 
-app.get("/allfruits", (req, res) => {
+app.get("/fruitshopapi/allfruits", (req, res) => {
   res.json(temporaryFruitArray);
 });
 
